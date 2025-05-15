@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Predator Tycoon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <header>
+            <h1>Apex Predator Tycoon</h1>
+        </header>
+
+        <div id="stats-area">
+            <h2>Your Empire:</h2>
+            <p>Money: $<span id="money-display">0</span></p>
+            <p>Salary (per 10 Grinds): $<span id="active-income-display">1</span></p>
+            <p>Passive Income (per sec): $<span id="passive-income-display">0</span></p>
+            <p>Career: <span id="career-title-display">Unemployed</span></p>
+            <p>Grind Progress: <span id="grind-progress-display">0</span>/10</p>
+        </div>
+
+        <div id="action-area">
+            <button id="grind-button">Grind (Work)</button>
+        </div>
+
+        <div id="story-area">
+            <h2>Story & Events:</h2>
+            <div id="story-display">
+                Welcome to the city. Your ambition is your only asset. Start grinding.
+            </div>
+            <div id="event-log">
+                </div>
+        </div>
+
+        <div id="passive-income-area">
+            <h2>Investments (Passive Income):</h2>
+            <div id="passive-options-display">
+                </div>
+        </div>
+
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
